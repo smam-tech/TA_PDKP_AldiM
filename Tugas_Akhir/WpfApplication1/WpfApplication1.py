@@ -1,6 +1,5 @@
 import wpf
 import random
-import array
 
 from System.Windows import Application, Window, MessageBox
 
@@ -247,9 +246,8 @@ class MyWindow(Window):
                 t=2000
                 k=1.5
 
-            for x in range(0,7):
-                z=paketan[x]
-                y = z*k+t
+            for x in paketan:
+                y = x*k+t
                 harga.append(y)
 
             MessageBox.Show("Paketan Untuk Distributor "+distri+":"+
