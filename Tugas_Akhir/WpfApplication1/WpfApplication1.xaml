@@ -23,6 +23,7 @@
             <RadioButton x:Name="h100k" Content="Rp 100.000" HorizontalAlignment="Left" Height="13" Width="123" />
             <RadioButton x:Name="h250k" Content="Rp 250.000" HorizontalAlignment="Left" Height="15" Width="102" />
             <RadioButton x:Name="h500k" Content="Rp 500.000" HorizontalAlignment="Left" Height="16" Width="102" />
+            <RadioButton x:Name="h1jt" Content="Rp 1.000.000" HorizontalAlignment="Left" Height="18" VerticalAlignment="Top" Width="102" />
         </StackPanel>
         <Button x:Name="btn_1" Content="Buy!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="140,377,0,0" Click="button_Click" />
         <Label Content="Top Up Voucher Game Online Murah" HorizontalAlignment="Left" Height="27" Margin="72,25,0,0" VerticalAlignment="Top" Width="223" />
@@ -35,7 +36,6 @@
         </StackPanel>
         <Label Content="Pembayaran Via : " HorizontalAlignment="Left" Height="26" Margin="149,147,0,0" VerticalAlignment="Top" Width="146" />
         <Label Content="SMAM SHOP" HorizontalAlignment="Left" Height="25" Margin="126,7,0,0" VerticalAlignment="Top" Width="85" />
-        <RadioButton x:Name="h1jt" Content="Rp 1.000.000" HorizontalAlignment="Left" Height="18" Margin="10,254,0,0" VerticalAlignment="Top" Width="102" />
         <StackPanel HorizontalAlignment="Left" Height="18" Margin="0,354,0,0" VerticalAlignment="Top" Width="286">
             <RadioButton x:Name="SK" Content="Saya Setuju dengan S&amp;K Yang Berlaku" Height="15" Margin="10,0,52,0" RenderTransformOrigin="0.786,0.867" Click="SK_Click" />
         </StackPanel>
